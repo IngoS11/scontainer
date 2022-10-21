@@ -8,5 +8,5 @@ services:
       target: base
     volumes:
       - ./src:/app/src
-    container_name: ts-node-docker
+    container_name: scontainer
     command: npm run start
