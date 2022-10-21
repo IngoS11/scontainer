@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag scontainer:latest
     - name: Run the container to write the output to the actions log
-      run: docker run scontainer
+      run: docker run scontainer npm run app
