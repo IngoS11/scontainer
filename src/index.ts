@@ -1,2 +1,2 @@
-let message: string = 'Hello World!';
+let message: string = 'Hello GitHub Actions!';
 console.log(message)
